@@ -177,7 +177,7 @@
         function updateTotals() {
             var vatRate = 0.07; // 7% VAT rate
             var vatAmount = totalPrice * vatRate;
-            var totalDue = totalPrice + vatAmount + parseFloat($("#shippingFees").text());
+            var totalDue = totalPrice + vatAmount;
 
             $("#subTotal").text(totalPrice.toFixed(2));
             $("#vat").text(vatAmount.toFixed(2));
