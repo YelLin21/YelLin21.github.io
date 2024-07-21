@@ -1,2 +1,2 @@
 # Welcome From my github
-**My name is Yel Lin**
+**This is my web dev assignment and classwork**
